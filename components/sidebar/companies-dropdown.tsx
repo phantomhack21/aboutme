@@ -19,8 +19,8 @@ interface Company {
 
 export const CompaniesDropdown = () => {
   const [company, setCompany] = useState<Company>({
-    name: "Acme Co.",
-    location: "Palo Alto, CA",
+    name: "Carl Ern Banua",
+    location: "Carl Ern Banua",
     logo: <AcmeIcon />,
   });
   return (
@@ -119,7 +119,7 @@ export const CompaniesDropdown = () => {
               title: "text-base font-semibold",
             }}
           >
-            Acme Co.
+            Carl Enn Banua
           </DropdownItem>
         </DropdownSection>
       </DropdownMenu>
