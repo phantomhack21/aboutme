@@ -1,115 +1,85 @@
-<h1 align=center>Bigspring Light Nextjs</h1> 
-<p align=center>Bigspring is a web development business template built in Nextjs. Perfect for Creative Agency, Marketing Agency, Design Studios, Digital Marketing Agencies, and other business service websites.</p>
-<h2 align="center"> <a target="_blank" href="https://bigspring-light-nextjs.vercel.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbigspring-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
+# TailAdmin - Free Tailwind Admin Dashboard Template
+TailAdmin is a high-quality, open-source, and **free Tailwind CSS admin template** that is perfect for creating data-rich backends, 
+powerful web applications and dashboard-admin projects.
 
 
+[![tailwind admin template](https://ucarecdn.com/364f2f57-6e1a-4ca4-9fc8-ab721029f6c3/tailadmingh.png)](https://tailadmin.com/)
 
-<p align=center>
-  <a href="https://github.com/vercel/next.js/releases/tag/v13.0.6" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
-  </a>
+### [✨ Visit Website](https://tailadmin.com/)
 
-  <a href="https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/themefisher/bigspring-light-nextjs" alt="license"></a>
+### [🚀 PRO Demo](https://demo.tailadmin.com/)
+### [🚀 FREE Demo](https://free-demo.tailadmin.com/)
 
-  <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size">
+### TailAdmin PRO vs TailAdmin FREE Comparison 📊
 
-  <a href="https://github.com/themefisher/bigspring-light-nextjs/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-nextjs" alt="contributors"></a>
-</p>
+#### [TailAdmin PRO](https://demo.tailadmin.com/)
+- 4 Unique Dashboards: Analytics, Ecommerce, Marketing, CRM, Stocks (More will be added)
+- 150+ Dashboard UI Components
+- 200+ Total UI Elements
+- 50+ HTML Files
+- All Essential Elements and Files
+- Full Figma Design Source - As Shown on Demo
 
-![bigspring-light](https://demo.gethugothemes.com/thumbnails/bigspring-light.png)
+___
 
-## 🔑Key Features
+#### [TailAdmin FREE](https://free-demo.tailadmin.com/)
+- 1 Unique Dashboard
+- 30+ Dashboard UI Components
+- 50+ Total UI Elements 
+- 10+ HTML Files
+- Basic UI Kit Elements and Files
+- Figma Design Source - Free Sample
+___
 
-- 📄 9+ Pre-Designed Pages
-- ✨ Simple and Minimal
-- 📱 Fully Responsive
-- 🚀 Google Page Speed score 100! (Desktop)
-- 📊 Google Analytics support
-- 🗂️ Caching enabled
-- ✉️ Supports Contact Form
-- 🌍 SEO Friendly
+### [⬇️ Download Now](https://tailadmin.com/download)
 
-## 📄 9+ Pre-Designed Pages
+### [⚡ Get PRO Version](https://tailadmin.com/pricing)
 
-- 🏠 Home Page
-- 📚 Blog Page
-- 📝 Blog Single Page
-- 📞 Contact Page
-- 📄 Features Page
-- ❓ FAQ Page
-- 💰 Pricing Page
-- 🔒 Privacy Policy Page
-- 🔒 Terms and Condition Page
+### [📄 Documentation/Installation](https://tailadmin.com/docs)
 
-<!-- installation -->
-## ⚙️Installation
+### [🖌️ TailAdmin Figma Free Sample](https://www.figma.com/community/file/1214477970819985778)
 
-After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+### [👉 TailAdmin React](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
 
-### 🔧Install prerequisites (once for a machine)
+### [👉 TailAdmin Next.js](https://github.com/TailAdmin/free-nextjs-admin-dashboard)
 
-* **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
 
-### 🖥️Local setup
+### Installation
 
-After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it)
 
-* Install dependencies
+Use terminal and navigate to the project (tailadmin) root. 
 
+- Clone the repository with the following command:
+
+```bash
+git clone https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template
 ```
-npm install
-```
+- Then run : <code>npm install</code> to install dependencies
 
-* Run locally
+- Then run : <code>npm start</code> to run the project in dev mode
 
-```
-npm run dev
-```
+Now, in the browser go to <code>localhost:3000</code>
 
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
+**For Production Build**
+Run : <code>npm run build</code>
 
-## 🔨Production Build
+This command will generate a Build folder in the root of your template that you can upload to your server.
 
-After finishing all the customization, you can create a production build by running this command.
 
-```
-npm run build
-```
+### 200+ Essential UI Components, Elements and App Pages for Dashboards
+With TailAdmin, you can launch your web projects quickly and easily, thanks to it contains 100+ pre-designed dashboard elements, components and pages. 
+Such as - header, navigation menu, chat, message, invoice, setting, sidebar, charts, graphs, tables, filters, search boxes, auth, buttons
+and **everything a dashboard needs for interacting with the data**
 
-<!-- reporting issue -->
-## 🐞Reporting Issues
+### Tailwind CSS HTML Admin Template
+TailAdmin is based on **Tailwind CSS and interaction handled by Alpine.js** Tailwind CSS is a powerful, utility-first framework that can help you build highly readable, fast-loading websites. 
+Its template-based design makes it easy to get started, and you can quickly create an admin interface with the same consistency. 
+So you can add your own style or customize TailAdmin without touching to CSS.
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/bigspring-light-nextjs/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bigspring-light-nextjs/issues).
+### License 
+TailAdmin Basic version is 100% free and open-source, allowing you to use it freely for both personal and commercial projects without any need for 
+attribution or credits.
 
-<!-- support -->
-## ✉️Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](https://themefisher.com/contact) instead of opening an issue.
-
-<!-- licence -->
-## 📄License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## 👨‍💻Hire Us
-
-Besides developing unique, blazing-fast Nextjs templates, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Nextjs.
-
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
-[Contact Page](https://themefisher.com/contact)**
-
-## 👉Nextjs Templates By Us
-
-<a href="https://themefisher.com/products/bookworm-light-nextjs">
-<img src="https://demo.gethugothemes.com/thumbnails/bookworm.png" height="300" width="400"/>
-<p>Bookworm Light Nextjs</p>
-</a>
+If you're in search of a top-notch Tailwind CSS admin and dashboard template that comprises all the necessary dashboard elements and functionalities, TailAdmin is an ideal option for you.
 
