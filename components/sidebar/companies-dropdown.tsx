@@ -86,7 +86,7 @@ export const CompaniesDropdown = () => {
               title: "text-base font-semibold",
             }}
           >
-            Facebook
+            Carl Ern Banua
           </DropdownItem>
           <DropdownItem
             key="2"
