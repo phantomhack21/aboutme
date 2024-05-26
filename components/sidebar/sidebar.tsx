@@ -56,7 +56,7 @@ export const SidebarWrapper = () => {
                 isActive={pathname === "/educationbackground"}
                 title="Educational Background"
                 icon={<AccountsIcon />}
-                href="accounts"
+                href="educationbackground"
               />              
               <SidebarItem
                 isActive={pathname === "/payments"}
