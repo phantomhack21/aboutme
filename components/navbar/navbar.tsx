@@ -25,8 +25,12 @@ export const NavbarWrapper = ({ children }: Props) => {
         <NavbarContent className="md:hidden">
           <BurguerButton />
         </NavbarContent>
+        
         <NavbarContent className="w-full max-md:hidden">
-          <Input
+          <div className="flex items-center gap-2 max-md:hidden">
+              Carl Ern Vineles Banua
+          </div>
+          {/* <Input
             startContent={<SearchIcon />}
             isClearable
             className="w-full"
@@ -35,8 +39,9 @@ export const NavbarWrapper = ({ children }: Props) => {
               mainWrapper: "w-full",
             }}
             placeholder="Search..."
-          />
+          /> */}
         </NavbarContent>
+        
         <NavbarContent
           justify="end"
           className="w-fit data-[justify=end]:flex-grow-0"
