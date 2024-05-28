@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@nextui-org/react";
 import React from "react";
-import { columns, users } from "./data";
+import { columns, educationalbackgrounds, users, columnseducationalbackground } from "./data";
 import { RenderCell } from "./render-cell";
 
 export const TableWrapper = () => {
@@ -32,6 +32,39 @@ export const TableWrapper = () => {
               {(columnKey) => (
                 <TableCell>
                   {RenderCell({ user: item, columnKey: columnKey })}
+                </TableCell>
+              )}
+            </TableRow>
+          )}
+        </TableBody>
+      </Table>
+    </div>
+  );
+};
+
+
+
+export const TableWrapperEducationalBackground = () => {
+  return (
+    <div className=" w-full flex flex-col gap-4">
+      <Table aria-label="Example table with custom cells">
+        <TableHeader columns={columnseducationalbackground}>
+          {(column) => (
+            <TableColumn
+              key={column.uid}
+              hideHeader={column.uid === "actions"}
+              align={column.uid === "actions" ? "center" : "start"}
+            >
+              {column.school}
+            </TableColumn>
+          )}
+        </TableHeader>
+        <TableBody items={educationalbackgrounds}>
+          {(item) => (
+            <TableRow>
+              {(columnKey) => (
+                <TableCell>
+                  {RenderCell({ educationalbackgrounds: item, columnKey: columnKey })}
                 </TableCell>
               )}
             </TableRow>

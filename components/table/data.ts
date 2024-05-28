@@ -4,6 +4,19 @@ export const columns = [
    {name: 'STATUS', uid: 'status'},
    {name: 'ACTIONS', uid: 'actions'},
 ];
+
+export const columnseducationalbackground = [
+   {name: 'SCHOOL', uid: 'school'},   
+];
+
+export const educationalbackgrounds = [
+   {
+      id: 1,
+      school: 'Bong-ao Elementary School'
+   },
+];
+
+
 export const users = [
    {
       id: 1,
