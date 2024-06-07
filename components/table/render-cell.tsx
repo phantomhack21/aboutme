@@ -3,12 +3,13 @@ import React from "react";
 import { DeleteIcon } from "../icons/table/delete-icon";
 import { EditIcon } from "../icons/table/edit-icon";
 import { EyeIcon } from "../icons/table/eye-icon";
-import { users } from "./data";
+import { educationalbackgrounds, users } from "./data";
 
 interface Props {
   user: (typeof users)[number];
   columnKey: string | React.Key;
 }
+
 
 export const RenderCell = ({ user, columnKey }: Props) => {
   // @ts-ignore

@@ -12,7 +12,11 @@ export const columnseducationalbackground = [
 export const educationalbackgrounds = [
    {
       id: 1,
-      school: 'Bong-ao Elementary School'
+      name: '',
+      grade: 'elementary',
+      location: 'Bong-ao, Valencia Negros Oriental',
+      yearstarted: '2018',
+      yearended: '2018'
    },
 ];
 
