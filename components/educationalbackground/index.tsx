@@ -34,7 +34,7 @@ export const EducationBackground = () => {
         </li>
       </ul> */}
 
-      <h3 className="text-xl font-semibold">Education Background</h3>
+      <h3 className="text-xl font-semibold">Educational Background</h3>
       <div className="flex justify-between flex-wrap gap-4 items-center">
         <div className="flex items-center gap-3 flex-wrap md:flex-nowrap">
       
