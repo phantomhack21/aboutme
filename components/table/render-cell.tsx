@@ -3,7 +3,7 @@ import React from "react";
 import { DeleteIcon } from "../icons/table/delete-icon";
 import { EditIcon } from "../icons/table/edit-icon";
 import { EyeIcon } from "../icons/table/eye-icon";
-import { educationalbackgrounds, users } from "./data";
+import { users } from "./data";
 
 interface Props {
   user: (typeof users)[number];
