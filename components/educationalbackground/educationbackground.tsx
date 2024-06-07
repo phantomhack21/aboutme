@@ -33,10 +33,44 @@ export const RenderCell = ({ educ, columnKey }: Props) => {
                 <span>{cellValue}</span>
               </div>
               <div>
-                <span>{educ.location}</span>
+                <span>{educ.grade}</span>
               </div>
             </div>
           );
+        case "location":
+            return (
+                <div>
+                  <div>
+                    <span>{cellValue}</span>
+                  </div>
+                  <div>
+                    <span>{educ.location}</span>
+                  </div>
+                </div>
+              );
+        case "yearstarted":
+            return (
+                    <div>
+                      <div>
+                        <span>{cellValue}</span>
+                      </div>
+                      <div>
+                        <span>{educ.yearstarted}</span>
+                      </div>
+                    </div>
+                  );
+
+        case "yearended":
+            return (
+            <div>
+                <div>
+                    <span>{cellValue}</span>
+                        </div>
+                              <div>
+                                <span>{educ.yearended}</span>
+                              </div>
+                            </div>
+                          );
         default:
             return cellValue;
     }

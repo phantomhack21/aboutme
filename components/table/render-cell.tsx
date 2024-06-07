@@ -25,18 +25,7 @@ export const RenderCell = ({ user, columnKey }: Props) => {
         >
           {user.email}
         </User>
-      );
-      case "school":
-      return (
-        <div>
-          <div>
-            <span>{cellValue}</span>
-          </div>
-          <div>
-            <span>{user.team}</span>
-          </div>
-        </div>
-      );
+      );     
     case "role":
       return (
         <div>
