@@ -1,6 +1,8 @@
 
 export const columnseducationalbackground = [
-    {name: 'SCHOOL', uid: 'school'},   
+    {name: 'SCHOOL', uid: 'school'}, 
+    {name: 'STARTED', uid: 'yearstared'},     
+    {name: 'ENDED', uid: 'yearended'},     
  ];
  
  export const educationalbackgrounds = [
