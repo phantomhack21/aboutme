@@ -27,8 +27,8 @@ export const NavbarWrapper = ({ children }: Props) => {
         </NavbarContent>
         
         <NavbarContent className="w-full max-md:hidden">
-          <div className="flex items-center gap-3 max-md:hidden">
-              Carl Ern Vineles Banua
+          <div className="flex items-center gap-2 max-md:hidden">
+              <h2>Carl Ern Vineles Banua</h2>
           </div>
           {/* <Input
             startContent={<SearchIcon />}
