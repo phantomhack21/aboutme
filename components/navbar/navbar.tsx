@@ -27,7 +27,7 @@ export const NavbarWrapper = ({ children }: Props) => {
         </NavbarContent>
         
         <NavbarContent className="w-full max-md:hidden">
-          <div className="flex items-center gap-2 max-md:hidden">
+          <div className="flex items-center gap-3 max-md:hidden">
               Carl Ern Vineles Banua
           </div>
           {/* <Input
