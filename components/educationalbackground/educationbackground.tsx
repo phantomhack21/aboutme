@@ -26,6 +26,17 @@ export const RenderCell = ({ educ, columnKey }: Props) => {
             {educ.location}
           </User>
         );
+        case "grade":
+        return (
+            <div>
+              <div>
+                <span>{cellValue}</span>
+              </div>
+              <div>
+                <span>{educ.location}</span>
+              </div>
+            </div>
+          );
         default:
             return cellValue;
     }
