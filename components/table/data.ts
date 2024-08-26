@@ -9,7 +9,7 @@ export const columns = [
 export const users = [
    {
       id: 1,
-      name: 'Tony Reichert',
+      name: 'Tony Reicaaert',
       role: 'CEO',
       team: 'Management',
       status: 'active',
